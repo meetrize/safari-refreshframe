@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8F0A4382F347EDC007CA677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0A4372F347EDC007CA677 /* AppDelegate.swift */; };
+		A8F0A43C2F347EDC007CA677 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A43A2F347EDC007CA677 /* Main.html */; };
+		A8F0A43E2F347EDC007CA677 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A43D2F347EDC007CA677 /* Icon.png */; };
+		A8F0A4402F347EDC007CA677 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A43F2F347EDC007CA677 /* Style.css */; };
+		A8F0A4422F347EDC007CA677 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4412F347EDC007CA677 /* Script.js */; };
+		A8F0A4442F347EDC007CA677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0A4432F347EDC007CA677 /* ViewController.swift */; };
+		A8F0A4472F347EDC007CA677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4452F347EDC007CA677 /* Main.storyboard */; };
+		A8F0A4492F347EDD007CA677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4482F347EDD007CA677 /* Assets.xcassets */; };
+		A8F0A4502F347EDD007CA677 /* Refresh Frame Helper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A8F0A44F2F347EDD007CA677 /* Refresh Frame Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8F0A4552F347EDD007CA677 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0A4542F347EDD007CA677 /* SafariWebExtensionHandler.swift */; };
+		A8F0A4662F347EDE007CA677 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4612F347EDE007CA677 /* background.js */; };
+		A8F0A4672F347EDE007CA677 /* SafariRefreshFrameApp in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4622F347EDE007CA677 /* SafariRefreshFrameApp */; };
+		A8F0A4682F347EDE007CA677 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4632F347EDE007CA677 /* icons */; };
+		A8F0A4692F347EDE007CA677 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4642F347EDE007CA677 /* manifest.json */; };
+		A8F0A46A2F347EDE007CA677 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A8F0A4652F347EDE007CA677 /* _locales */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F0A4512F347EDD007CA677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F0A42C2F347EDC007CA677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F0A44E2F347EDD007CA677;
+			remoteInfo = "Refresh Frame Helper Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8F0A45C2F347EDD007CA677 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8F0A4502F347EDD007CA677 /* Refresh Frame Helper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A8F0A4342F347EDC007CA677 /* Refresh Frame Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refresh Frame Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F0A4372F347EDC007CA677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F0A43B2F347EDC007CA677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		A8F0A43D2F347EDC007CA677 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A8F0A43F2F347EDC007CA677 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A8F0A4412F347EDC007CA677 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A8F0A4432F347EDC007CA677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8F0A4462F347EDC007CA677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F0A4482F347EDD007CA677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F0A44A2F347EDD007CA677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F0A44F2F347EDD007CA677 /* Refresh Frame Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Refresh Frame Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F0A4542F347EDD007CA677 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A8F0A4562F347EDD007CA677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F0A4612F347EDE007CA677 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../background.js; sourceTree = "<group>"; };
+		A8F0A4622F347EDE007CA677 /* SafariRefreshFrameApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SafariRefreshFrameApp; path = ../..; sourceTree = "<group>"; };
+		A8F0A4632F347EDE007CA677 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../icons; sourceTree = "<group>"; };
+		A8F0A4642F347EDE007CA677 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
+		A8F0A4652F347EDE007CA677 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../_locales; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F0A4312F347EDC007CA677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F0A44C2F347EDD007CA677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F0A42B2F347EDC007CA677 = {
+			isa = PBXGroup;
+			children = (
+				A8F0A4362F347EDC007CA677 /* Refresh Frame Helper */,
+				A8F0A4532F347EDD007CA677 /* Refresh Frame Helper Extension */,
+				A8F0A4352F347EDC007CA677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F0A4352F347EDC007CA677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0A4342F347EDC007CA677 /* Refresh Frame Helper.app */,
+				A8F0A44F2F347EDD007CA677 /* Refresh Frame Helper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F0A4362F347EDC007CA677 /* Refresh Frame Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0A4372F347EDC007CA677 /* AppDelegate.swift */,
+				A8F0A4432F347EDC007CA677 /* ViewController.swift */,
+				A8F0A4452F347EDC007CA677 /* Main.storyboard */,
+				A8F0A4482F347EDD007CA677 /* Assets.xcassets */,
+				A8F0A44A2F347EDD007CA677 /* Info.plist */,
+				A8F0A4392F347EDC007CA677 /* Resources */,
+			);
+			path = "Refresh Frame Helper";
+			sourceTree = "<group>";
+		};
+		A8F0A4392F347EDC007CA677 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0A43A2F347EDC007CA677 /* Main.html */,
+				A8F0A43D2F347EDC007CA677 /* Icon.png */,
+				A8F0A43F2F347EDC007CA677 /* Style.css */,
+				A8F0A4412F347EDC007CA677 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8F0A4532F347EDD007CA677 /* Refresh Frame Helper Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0A4602F347EDE007CA677 /* Resources */,
+				A8F0A4542F347EDD007CA677 /* SafariWebExtensionHandler.swift */,
+				A8F0A4562F347EDD007CA677 /* Info.plist */,
+			);
+			path = "Refresh Frame Helper Extension";
+			sourceTree = "<group>";
+		};
+		A8F0A4602F347EDE007CA677 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0A4612F347EDE007CA677 /* background.js */,
+				A8F0A4622F347EDE007CA677 /* SafariRefreshFrameApp */,
+				A8F0A4632F347EDE007CA677 /* icons */,
+				A8F0A4642F347EDE007CA677 /* manifest.json */,
+				A8F0A4652F347EDE007CA677 /* _locales */,
+			);
+			name = Resources;
+			path = "Refresh Frame Helper Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F0A4332F347EDC007CA677 /* Refresh Frame Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F0A45D2F347EDD007CA677 /* Build configuration list for PBXNativeTarget "Refresh Frame Helper" */;
+			buildPhases = (
+				A8F0A4302F347EDC007CA677 /* Sources */,
+				A8F0A4312F347EDC007CA677 /* Frameworks */,
+				A8F0A4322F347EDC007CA677 /* Resources */,
+				A8F0A45C2F347EDD007CA677 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F0A4522F347EDD007CA677 /* PBXTargetDependency */,
+			);
+			name = "Refresh Frame Helper";
+			packageProductDependencies = (
+			);
+			productName = "Refresh Frame Helper";
+			productReference = A8F0A4342F347EDC007CA677 /* Refresh Frame Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F0A44E2F347EDD007CA677 /* Refresh Frame Helper Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F0A4592F347EDD007CA677 /* Build configuration list for PBXNativeTarget "Refresh Frame Helper Extension" */;
+			buildPhases = (
+				A8F0A44B2F347EDD007CA677 /* Sources */,
+				A8F0A44C2F347EDD007CA677 /* Frameworks */,
+				A8F0A44D2F347EDD007CA677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refresh Frame Helper Extension";
+			packageProductDependencies = (
+			);
+			productName = "Refresh Frame Helper Extension";
+			productReference = A8F0A44F2F347EDD007CA677 /* Refresh Frame Helper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F0A42C2F347EDC007CA677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A8F0A4332F347EDC007CA677 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A8F0A44E2F347EDD007CA677 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = A8F0A42F2F347EDC007CA677 /* Build configuration list for PBXProject "Refresh Frame Helper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F0A42B2F347EDC007CA677;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A8F0A4352F347EDC007CA677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F0A4332F347EDC007CA677 /* Refresh Frame Helper */,
+				A8F0A44E2F347EDD007CA677 /* Refresh Frame Helper Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F0A4322F347EDC007CA677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0A43E2F347EDC007CA677 /* Icon.png in Resources */,
+				A8F0A4472F347EDC007CA677 /* Main.storyboard in Resources */,
+				A8F0A4422F347EDC007CA677 /* Script.js in Resources */,
+				A8F0A43C2F347EDC007CA677 /* Main.html in Resources */,
+				A8F0A4492F347EDD007CA677 /* Assets.xcassets in Resources */,
+				A8F0A4402F347EDC007CA677 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F0A44D2F347EDD007CA677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0A4692F347EDE007CA677 /* manifest.json in Resources */,
+				A8F0A4682F347EDE007CA677 /* icons in Resources */,
+				A8F0A4672F347EDE007CA677 /* SafariRefreshFrameApp in Resources */,
+				A8F0A46A2F347EDE007CA677 /* _locales in Resources */,
+				A8F0A4662F347EDE007CA677 /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F0A4302F347EDC007CA677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0A4442F347EDC007CA677 /* ViewController.swift in Sources */,
+				A8F0A4382F347EDC007CA677 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F0A44B2F347EDD007CA677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0A4552F347EDD007CA677 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F0A4522F347EDD007CA677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F0A44E2F347EDD007CA677 /* Refresh Frame Helper Extension */;
+			targetProxy = A8F0A4512F347EDD007CA677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F0A43A2F347EDC007CA677 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F0A43B2F347EDC007CA677 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A8F0A4452F347EDC007CA677 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F0A4462F347EDC007CA677 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F0A4572F347EDD007CA677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F0A4582F347EDD007CA677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A8F0A45A2F347EDD007CA677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refresh Frame Helper Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Frame Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Refresh-Frame-Helper.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8F0A45B2F347EDD007CA677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refresh Frame Helper Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Frame Helper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Refresh-Frame-Helper.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8F0A45E2F347EDD007CA677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refresh Frame Helper/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Frame Helper";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Refresh-Frame-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8F0A45F2F347EDD007CA677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refresh Frame Helper/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Frame Helper";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Refresh-Frame-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F0A42F2F347EDC007CA677 /* Build configuration list for PBXProject "Refresh Frame Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F0A4572F347EDD007CA677 /* Debug */,
+				A8F0A4582F347EDD007CA677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F0A4592F347EDD007CA677 /* Build configuration list for PBXNativeTarget "Refresh Frame Helper Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F0A45A2F347EDD007CA677 /* Debug */,
+				A8F0A45B2F347EDD007CA677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F0A45D2F347EDD007CA677 /* Build configuration list for PBXNativeTarget "Refresh Frame Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F0A45E2F347EDD007CA677 /* Debug */,
+				A8F0A45F2F347EDD007CA677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F0A42C2F347EDC007CA677 /* Project object */;
+}

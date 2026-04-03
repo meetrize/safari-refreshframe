@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "重新载入框架助手"
+  },
+  "ext_description": {
+    "message": "在 iframe 上显示右键菜单以刷新该框架；点击工具栏图标可刷新页面内全部可访问的 iframe。"
+  },
+  "browser_action_title": {
+    "message": "刷新页面中所有 iframe"
+  },
+  "menu_refresh_frame": {
+    "message": "重新载入框架页面"
+  }
+}

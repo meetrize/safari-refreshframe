@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "Refresh Frame Helper"
+  },
+  "ext_description": {
+    "message": "Context menu on iframes to reload the clicked frame; toolbar button reloads all reachable iframes on the page."
+  },
+  "browser_action_title": {
+    "message": "Reload all iframes on this page"
+  },
+  "menu_refresh_frame": {
+    "message": "Refresh frame"
+  }
+}
